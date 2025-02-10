@@ -66,3 +66,16 @@ If you have uploaded your project to GitHub, you can clone it using the followin
 ```sh
 git clone https://github.com/ankithmandal09/B42_Web_024_Scripting-Sorcerers
 cd reebok-clone
+```
+ ⁍ **Akshay Shinde**:
+ - Linkedin: http://linkedin.com/in/akshayshinde2
+   
+ ⁍ **Ankith Mandal**:
+ - Linkedin: www.linkedin.com/in/ankith-mandal-030296276
+   
+ ⁍ **Bharath Raj**:
+ - Linkedin: https://www.linkedin.com/in/bharathrajs1807
+
+## Show your support
+
+Give a ⭐️ if you like this project!
