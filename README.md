@@ -1,7 +1,7 @@
 # Reebok Clone
 
 ## Introduction
-The Reebok Clone is a replica of the Reebok online store, designed to provide a seamless shopping experience. It allows users to browse products, add items to their cart, and complete purchases securely. With features like product filtering, user sign-in, and a responsive design, this project showcases essential e-commerce functionalities while improving development skills in front-end technologies.
+The Stride Sport is a replica of the Reebok online store, designed to provide a seamless shopping experience. It allows users to browse products, add items to their cart, and complete purchases securely. With features like product filtering, user sign-in, and a responsive design, this project showcases essential e-commerce functionalities while improving development skills in front-end technologies.
 
 ## Project Type
 Frontend
