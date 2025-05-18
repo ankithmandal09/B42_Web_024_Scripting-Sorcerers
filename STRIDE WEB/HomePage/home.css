@@ -51,10 +51,16 @@ body {
 
 #classics {
     display: none;
-    grid-template-columns: repeat(3, 0fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    background: white;
+    padding: 20px;
+    z-index: 100;
+    width: 100%;
+    gap: 100px;
     padding-left: 50px;
-    padding-top: 3rem;
+    height: 200px;
+    font-size: 15px;
 }
 
 .img {
@@ -213,29 +219,29 @@ header {
 
 .banner {
     position: relative;
-    background: url('https://www.reebok.eu/BWStaticContent/153000/0fee165a-f04b-44db-b703-4d3907e73900_desk-hp-hedmayner.jpg') no-repeat center center/cover;
-    height: 500px;
+    background: url('banner.webp') no-repeat center center/cover;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 2rem;
+    padding-left: 8.5rem;
     color: white;
 }
 
 .banner1 {
     position: relative;
-    background: url('https: //www.reebok.eu/BWStaticContent/153000/0fee165a-f04b-44db-b703-4d3907e73900_desk-hp-hedmayner.jpg') no-repeat center center/cover;
-    height: 500px;
+    background: url('banner1.webp') no-repeat center center/cover;
+    height: 680px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding-left: 2rem;
+    justify-content: flex-end;
+    padding-right: 8.5rem;
     color: white;
 }
 
 .banner2 {
     position: relative;
-    background: url('https://www.reebok.eu/BWStaticContent/153000/0fee165a-f04b-44db-b703-4d3907e73900_desk-hp-hedmayner.jpg') no-repeat center center/cover;
+    background: url('banner2.jpg') no-repeat center center/cover;
     height: 500px;
     display: flex;
     align-items: center;
@@ -246,6 +252,12 @@ header {
 
 .banner-content {
     max-width: 300px;
+}
+
+.banner-content1 {
+    max-width: 300px;
+    text-align: right;
+    font-size: larger;
 }
 
 .banner h1 {
@@ -259,6 +271,44 @@ header {
 }
 
 .banner a {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.banner1 h1 {
+    font-size: 2.2rem;
+    margin: 0 0 10px 0;
+}
+
+.banner1 p {
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+}
+
+.banner1 a {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.banner2 h1 {
+    font-size: 2.2rem;
+    margin: 0 0 10px 0;
+}
+
+.banner2 p {
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+}
+
+.banner2 a {
     background-color: white;
     color: black;
     padding: 10px 20px;
@@ -378,15 +428,15 @@ header {
 }
 
 .women::before {
-    background-image: url('https://www.reebok.eu/BWStaticContent/153000/9918e3a4-6ea3-463a-bb37-c39e436ad8ce_category-small.jpg');
+    background-image: url('women.jpg');
 }
 
 .men::before {
-    background-image: url('https://www.reebok.eu/BWStaticContent/153000/2504667c-b648-4804-9b87-d62c51d848b1_category-small.jpg');
+    background-image: url('men.avif');
 }
 
 .kids::before {
-    background-image: url('https://www.reebok.eu/BWStaticContent/153000/0363def3-0995-4bdc-88b3-8daec0f73fb4_category-small.jpg');
+    background-image: url('kids.avif');
 }
 
 .thirdDivproducts {
