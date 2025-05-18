@@ -7,7 +7,7 @@ The Stride Sport is a replica of the Reebok online store, designed to provide a 
 Frontend
 
 ## Deployed App
-[Live Demo](https://stridesport.netlify.app/)
+[Live Demo](https://stridesports.netlify.app/)
 
 ## Directory Structure
 reebok-clone/
