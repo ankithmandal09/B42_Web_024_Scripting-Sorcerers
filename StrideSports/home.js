@@ -54,7 +54,7 @@ function displayProducts(arr) {
     arr.forEach(([id, product]) => {
         let card = document.createElement("div");
         card.onclick = function () {
-            window.location.href = `../ProductDetails/productDetails.html?userId=${id}`;
+            window.location.href = `./productDetails.html?userId=${id}`;
         }
         card.classList = "product1";
         card.innerHTML = `
@@ -73,7 +73,7 @@ function displayProducts2(arr) {
     arr.forEach(([id, product]) => {
         let card = document.createElement("div");
         card.onclick = function () {
-            window.location.href = `../ProductDetails/productDetails.html?userId=${id}`;
+            window.location.href = `./productDetails.html?userId=${id}`;
         }
         card.classList = "product1";
         card.innerHTML = `
