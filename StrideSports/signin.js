@@ -1,13 +1,13 @@
 document.getElementById("logoClick").addEventListener("click", function(){
-    window.location.href = "../HomePage/home.html"
+    window.location.href = "./home.html"
 });
 
 document.getElementById("navWishlist").addEventListener("click", function(){
-    window.location.href = "../WishList/wishlist.html";
+    window.location.href = "./wishlist.html";
 });
 
 document.getElementById("navcart-menu").addEventListener("click", function(){
-    window.location.href = "../Cart/cart.html";
+    window.location.href = "./cart.html";
 });
 
 let container = document.getElementById("container");
@@ -86,7 +86,7 @@ signinbtn.addEventListener("click", (event) => {
             lname.value = "";
             email2.value = "";
             password2.value = "";
-            window.location.href = "../HomePage/home.html";
+            window.location.href = "./home.html";
         }
     }
 });
@@ -145,7 +145,7 @@ registerbtn.addEventListener("click", (event) => {
             lname.value = "";
             email2.value = "";
             password2.value = "";
-            window.location.href = "../HomePage/home.html";
+            window.location.href = "./home.html";
         })
         .catch((error) => console.error(error));
     }
@@ -205,7 +205,7 @@ changepasswordbtn.addEventListener("click", (event) => {
             email2.value = "";
             password2.value = "";
             changepassword.setAttribute("class", "hidden");
-            window.location.href = "../HomePage/home.html";
+            window.location.href = "./home.html";
         })
         .catch((error) => console.error(error));
     }

@@ -243,18 +243,18 @@ navCartDropdown.addEventListener("mouseleave", function () {
 });
 
 document.getElementById("logoClick").addEventListener("click", function () {
-    window.location.href = "../HomePage/home.html"
+    window.location.href = "./home.html"
 });
 
 document.getElementById("shopBtn").addEventListener("click", function () {
-    window.location.href = "../Products/products.html";
+    window.location.href = "./products.html";
 });
 document.getElementById("navUser").addEventListener("click", function () {
-    window.location.href = "../SignIn/signin.html"
+    window.location.href = "./signin.html"
 });
 document.getElementById("navWishlist").addEventListener("click", function () {
-    window.location.href = "../WishList/wishlist.html";
+    window.location.href = "./wishlist.html";
 });
 document.getElementById("navcart-menu").addEventListener("click", function () {
-    window.location.href = "../Cart/cart.html";
+    window.location.href = "./cart.html";
 });

@@ -1,17 +1,17 @@
 document.getElementById("logoClick").addEventListener("click", function () {
-    window.location.href = "../HomePage/home.html"
+    window.location.href = "./home.html"
 });
 
 document.getElementById("navUser").addEventListener("click", function () {
-    window.location.href = "../SignIn/signin.html"
+    window.location.href = "./signin.html"
 });
 
 document.getElementById("navWishlist").addEventListener("click", function () {
-    window.location.href = "../WishList/wishlist.html";
+    window.location.href = "./wishlist.html";
 });
 
 document.getElementById("navcart-menu").addEventListener("click", function () {
-    window.location.href = "../Cart/cart.html";
+    window.location.href = "./cart.html";
 });
 
 async function addToCart(id) {
@@ -50,7 +50,7 @@ async function addToCart(id) {
             alert("Item Added To Cart.");
         }
 
-        fetchCartData(); // Refresh the cart display
+        fetchCartData(); 
     } catch (error) {
         console.error("Error adding to cart:", error);
     }
@@ -127,7 +127,7 @@ function displayProducts(arr) {
     paginatedArr.forEach(([id, product]) => {
         let card = document.createElement("div");
         card.onclick = function () {
-            window.location.href = `../ProductDetails/productDetails.html?userId=${id}`;
+            window.location.href = `./productDetails.html?userId=${id}`;
         }
         card.classList = "card";
         card.innerHTML = `

@@ -1,17 +1,17 @@
 document.getElementById("logoClick").addEventListener("click", function () {
-    window.location.href = "../HomePage/home.html"
+    window.location.href = "./home.html"
 });
 
 document.getElementById("navUser").addEventListener("click", function () {
-    window.location.href = "../SignIn/signin.html"
+    window.location.href = "./signin.html"
 });
 
 document.getElementById("navWishlist").addEventListener("click", function () {
-    window.location.href = "../WishList/wishlist.html";
+    window.location.href = "./wishlist.html";
 });
 
 document.getElementById("navcart-menu").addEventListener("click", function () {
-    window.location.href = "../Cart/cart.html";
+    window.location.href = "./cart.html";
 });
 
 let container = document.getElementById("container");
@@ -70,7 +70,7 @@ clubbtn.addEventListener("click", (event) => {
                 localStorage.setItem("user", JSON.stringify(user));
                 fetchUsers();
                 email.value = "";
-                window.location.href = "../HomePage/home.html"
+                window.location.href = "./home.html"
             })
             .catch((error) => console.error(error));
     }
@@ -94,7 +94,7 @@ clubbtn.addEventListener("click", (event) => {
                 localStorage.setItem("user", JSON.stringify(user));
                 fetchUsers();
                 email.value = "";
-                window.location.href = "../HomePage/home.html"
+                window.location.href = "./home.html"
             })
             .catch((error) => console.error(error));
     }

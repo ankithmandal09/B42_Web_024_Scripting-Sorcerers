@@ -1,5 +1,5 @@
 document.getElementById("navUser").addEventListener("click", function () {
-    window.location.href = "../SignIn/signin.html"
+    window.location.href = "./signin.html"
 });
 
 document.getElementById("logoClick").addEventListener("click", function () {
@@ -7,30 +7,30 @@ document.getElementById("logoClick").addEventListener("click", function () {
 });
 
 document.getElementById("joinClick").addEventListener("click", function () {
-    window.location.href = "../Club/club.html"
+    window.location.href = "./club.html"
 });
 
 document.getElementById("discover").addEventListener("click", function () {
-    window.location.href = "../Products/products.html"
+    window.location.href = "./products.html"
 });
 
 document.querySelector(".discover1").addEventListener("click", function () {
-    window.location.href = "../Products/products.html"
+    window.location.href = "./products.html"
 });
 
 document.querySelector(".discover2").addEventListener("click", function () {
-    window.location.href = "../Products/products.html"
+    window.location.href = "./products.html"
 });
 
 document.getElementById("joinBtn").addEventListener("click", function () {
-    window.location.href = "../Club/club.html"
+    window.location.href = "./club.html"
 });
 
 document.getElementById("navWishlist").addEventListener("click", function () {
-    window.location.href = "../WishList/wishlist.html";
+    window.location.href = "./wishlist.html";
 });
 document.getElementById("navcart-menu").addEventListener("click", function () {
-    window.location.href = "../Cart/cart.html";
+    window.location.href = "./cart.html";
 });
 
 // Dynamic Products
